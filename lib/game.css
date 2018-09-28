@@ -1,0 +1,9 @@
+canvas{
+    position: absolute;
+    border: 1px solid lightgray;
+    width: 1200;
+    height: 600;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+}
