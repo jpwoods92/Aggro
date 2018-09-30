@@ -1,22 +1,22 @@
-# Slithers Javascript Game
+# Aggro Javascript Game
 
 ### Plan for process:
 
 #### Phase 1:
 -   Build framework of the game: page layout and structure
 
--   Construct canvas background and basic structure of snakes
+-   Construct canvas background and basic structure of player
 #### Phase 2:
--   Get snake to move in the direction of the mouse
+-   Get player to move in the direction of the mouse
 
--   Create balls for snakes to pick up
+-   Create balls for player to pick up
 #### Phase 3:
--   Build logic for making the snake grow in length
+-   Build logic for making the player grow in size
 
--   Add other snakes that move in random directions
+-   Add enemies that move in random directions
 
 -   Add scoreboard
 
 ### WireFrame:
 
-![Wireframe](SlitherinWireframe.png)
+![Wireframe](AggroWireframe.png)
