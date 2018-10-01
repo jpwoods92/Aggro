@@ -1,9 +1,11 @@
 canvas{
-    width: 1200;
-    height: 600;
+    width: 1200px;
+    height: 600px;
     background: transparent;
 }
 
 #canvasContainer {
+    width: 1200px;
+    height: 600px;
     display: inline-block;
 }
