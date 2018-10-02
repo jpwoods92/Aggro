@@ -1,11 +1,11 @@
 canvas{
-    width: 1200px;
-    height: 600px;
+    width: 1280px;
+    height: 720px;
     background: transparent;
 }
 
 #canvasContainer {
-    width: 1200px;
-    height: 600px;
+    width: 1280px;
+    height: 720px;
     display: inline-block;
 }
