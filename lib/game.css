@@ -6,6 +6,8 @@ canvas{
 }
 
 #canvasContainer {
+    position: absolute;
+    left: 160px;
     margin: auto;
     width: 1200px;
     height: 600px;
@@ -18,4 +20,57 @@ body {
     left: 0;
     top: 0;
     background-size: cover;
+}
+
+button#startButton {
+    position: absolute;
+    left: 750px;
+    top: 350px;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+button#startButton:hover {
+    border: 5px solid white;
+    transition: border .25s;
+}
+a {
+    color: white;
+    font-size: 40px
+}
+a:hover {
+    font-size: 50px;
+    transition: font-size .25s;
+}
+
+.stats {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#welcome-header {
+    font-family: sans-serif;
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside {
+    margin-left: 10px;
 }
