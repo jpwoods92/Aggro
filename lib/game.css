@@ -42,6 +42,8 @@ button#startButton:hover {
     transition: border .3s;
 }
 a {
+    display: inline-block;
+    outline: none;
     margin-bottom: 10px;
     color: white;
     font-size: 40px
@@ -78,5 +80,6 @@ p {
 }
 
 aside {
+    width: 50px;
     margin-left: 10px;
 }
