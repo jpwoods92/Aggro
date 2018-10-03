@@ -6,6 +6,7 @@ canvas{
 }
 
 #canvasContainer {
+    top: 33px;
     position: absolute;
     left: 160px;
     margin: auto;
@@ -15,7 +16,7 @@ canvas{
 }
 
 body {
-    background-image: url(./images/color-gradient.jpg);
+    background-image: url(./images/gradient-1.jpg);
     background-repeat: no-repeat;
     left: 0;
     top: 0;
@@ -25,7 +26,7 @@ body {
 button#startButton {
     position: absolute;
     left: 750px;
-    top: 350px;
+    top: 360px;
     outline: none;
     border: 1px solid white;
     padding: 10px 30px 10px 30px;
@@ -38,7 +39,7 @@ button#startButton {
 
 button#startButton:hover {
     border: 5px solid white;
-    transition: border .25s;
+    transition: border .3s;
 }
 a {
     margin-bottom: 10px;
@@ -47,7 +48,7 @@ a {
 }
 a:hover {
     font-size: 50px;
-    transition: font-size .25s;
+    transition: font-size .3s;
 }
 
 .stats {
@@ -66,7 +67,7 @@ p {
     font-size: 23px;
     position: absolute;
     left: 450px;
-    top: 200px;
+    top: 185px;
 }
 
 .links {
