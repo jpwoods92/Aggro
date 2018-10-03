@@ -41,6 +41,7 @@ button#startButton:hover {
     transition: border .25s;
 }
 a {
+    margin-bottom: 10px;
     color: white;
     font-size: 40px
 }
@@ -53,6 +54,10 @@ a:hover {
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+}
+
+p {
+    font-size: 17px;
 }
 
 #welcome-header {
