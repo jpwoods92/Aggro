@@ -1,11 +1,21 @@
 canvas{
-    width: 1280px;
-    height: 720px;
+    border: 50px solid white;
+    width: 1200px;
+    height: 600px;
     background: transparent;
 }
 
 #canvasContainer {
-    width: 1280px;
-    height: 720px;
+    margin: auto;
+    width: 1200px;
+    height: 600px;
     display: inline-block;
+}
+
+body {
+    background-image: url(./images/color-gradient.jpg);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    background-size: cover;
 }
