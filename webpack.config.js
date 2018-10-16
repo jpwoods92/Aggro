@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './lib/slitherin.js',
+  entry: './lib/aggro.js',
   output: {
     filename: './lib/bundle.js'
   },
