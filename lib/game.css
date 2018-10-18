@@ -61,9 +61,10 @@ button#start-button {
 }
 
 button#start-button:hover {
-    border: 5px solid white;
+    border: 3px solid white;
     transition: border .3s;
 }
+
 a {
     display: inline-block;
     outline: none;
@@ -93,6 +94,22 @@ p {
     top:200px;
     left: 450px;
     position: absolute;
+}
+
+#pause-button {
+    outline: none;
+    border: 1px solid white;
+    padding: 1px 25px 1px 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+#pause-button:hover {
+    border: 3px solid white;
+    transition: border .3s;
 }
 
 .links {
