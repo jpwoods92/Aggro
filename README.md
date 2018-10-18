@@ -93,5 +93,4 @@ After resize:
 #### Future steps
 
 - Implement enemies logic
-- Implement high score functionality
 - Dynamically change the shape of the player object

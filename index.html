@@ -17,7 +17,8 @@
     <div id='canvasContainer'>
       <canvas height='720px' width='1280px' id='background'></canvas>
     </div>
-    <button id='startButton'>Start</button>
+    <input placeholder='name' id='name-field' type="text" maxlength="10" >
+    <button id='start-button'>Start</button>
     <aside>
       <div class='links'>
         <a href="https://github.com/jpwoods92" rel="noopener noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a>
@@ -30,6 +31,22 @@
         <p id="timer"></p>
       </div>
     </aside>
-    <script type="application/javascript" src="lib/bundle.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDY-WpiXywc7vrL7oCBzFrOMujNSz_kmqk",
+        authDomain: "aggro-5d547.firebaseapp.com",
+        databaseURL: "https://aggro-5d547.firebaseio.com",
+        projectId: "aggro-5d547",
+        storageBucket: "",
+        messagingSenderId: "499278301300"
+      };
+      firebase.initializeApp(config);
+      </script>
+      <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
-</html>
+  </html>
